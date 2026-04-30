@@ -24,9 +24,11 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let name = "Alice";
+let itemsBought = 5;
+let total = 20;
+let store="Target";
+let dateBought = "April 29, 2026";
+let summary = name + " bought " + itemsBought + " items for $" + total + " at " + store + " on " + dateBought +  ".";
 
-console.log(d);
+console.log(summary);
