@@ -1,0 +1,23 @@
+# To-Do List
+# Make changes to the file by opening it and adding the following:
+#● Complete Git lesson
+#● Review HTML basics
+#● Start JavaScript exercises
+
+# these were my instructions. Finished Git lesson. 
+# next is HTML and idk what the Javascript exercises are but I'll do some.
+
+<html>
+<h1>Hello World!</h1>
+<ul>This is a bulleted list
+    <li>first</li>
+    <li>another</li>
+    <li>last</li>
+</ul>
+
+<script>
+const heading = document.querySelector('h1');
+heading.textContent = 'Hello World!';
+heading.style.color = 'royalblue';
+</script>
+</html>
